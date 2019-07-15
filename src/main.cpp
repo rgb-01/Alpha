@@ -15,7 +15,7 @@ void loop()
   delay(1000);
 
   // turn the LED off by making the voltage LOW
-  digitalWite(LED_BUILTIN, LOW);
+  digitalWrite(LED_BUILTIN, LOW);
 
   // wait for a second
   delay(1000);
